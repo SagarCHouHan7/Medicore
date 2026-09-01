@@ -1,0 +1,27 @@
+debug: true
+server:
+  port: 8070
+spring:
+  application:
+    name: medicore
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/MEDICORE
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+razorpay:
+  key:
+    id: rzp_test_RY2Tqf1fN9nhSb
+    secret: zALt9S2swQYFV0DXK9dQToJ7
+
+
+
+
+
+
+
