@@ -1,8 +1,8 @@
 package com.medicore.medicore.comman.mapper;
 
-import com.medicore.medicore.hospital.HospitalProfile;
-import com.medicore.medicore.hospital.HospitalProfileCreationDto;
-import com.medicore.medicore.hospital.HospitalResponseDto;
+import com.medicore.medicore.clinic.model.HospitalProfile;
+import com.medicore.medicore.clinic.dto.HospitalProfileCreationDto;
+import com.medicore.medicore.clinic.dto.HospitalResponseDto;
 
 public class HospitalMapper {
 

@@ -1,10 +1,10 @@
 package com.medicore.medicore.billing.model.entity;
 
-import com.medicore.medicore.appointment.Appointment;
+import com.medicore.medicore.clinic.model.Appointment;
 import com.medicore.medicore.billing.model.status.BillingStatus;
-import com.medicore.medicore.doctor.DoctorProfile;
-import com.medicore.medicore.hospital.HospitalProfile;
-import com.medicore.medicore.patient.PatientProfile;
+import com.medicore.medicore.clinic.model.DoctorProfile;
+import com.medicore.medicore.clinic.model.HospitalProfile;
+import com.medicore.medicore.clinic.model.PatientProfile;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

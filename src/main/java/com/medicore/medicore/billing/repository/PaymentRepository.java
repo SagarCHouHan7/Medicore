@@ -3,8 +3,8 @@ package com.medicore.medicore.billing.repository;
 import com.medicore.medicore.billing.model.entity.Bill;
 import com.medicore.medicore.billing.model.entity.Payment;
 import com.medicore.medicore.billing.model.status.PaymentStatus;
-import com.medicore.medicore.doctor.DoctorProfile;
-import com.medicore.medicore.hospital.HospitalProfile;
+import com.medicore.medicore.clinic.model.DoctorProfile;
+import com.medicore.medicore.clinic.model.HospitalProfile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

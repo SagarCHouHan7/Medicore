@@ -1,7 +1,7 @@
 package com.medicore.medicore.comman.mapper;
 
-import com.medicore.medicore.doctor.Prescription;
-import com.medicore.medicore.doctor.PrescriptionResponseDto;
+import com.medicore.medicore.clinic.model.Prescription;
+import com.medicore.medicore.clinic.dto.PrescriptionResponseDto;
 
 public class PrescriptionMapper {
 

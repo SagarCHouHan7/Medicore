@@ -1,8 +1,8 @@
 package com.medicore.medicore.comman.mapper;
 
 import com.medicore.medicore.account.entity.User;
-import com.medicore.medicore.patient.PatientProfile;
-import com.medicore.medicore.patient.dto.PatientProfileResponse;
+import com.medicore.medicore.clinic.model.PatientProfile;
+import com.medicore.medicore.clinic.dto.PatientProfileResponse;
 
 public class PatientMapper {
 

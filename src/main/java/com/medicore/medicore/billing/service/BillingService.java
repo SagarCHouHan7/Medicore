@@ -9,11 +9,11 @@ import com.medicore.medicore.comman.exception.custome.DoctorNotFoundException;
 import com.medicore.medicore.comman.exception.custome.PatientNotFoundException;
 import com.medicore.medicore.comman.mapper.BillingMapper;
 import com.medicore.medicore.comman.utils.UserUtils;
-import com.medicore.medicore.doctor.DoctorProfile;
-import com.medicore.medicore.doctor.DoctorProfileRepository;
-import com.medicore.medicore.hospital.HospitalRepo;
-import com.medicore.medicore.patient.PatientProfile;
-import com.medicore.medicore.patient.PatientProfileRepository;
+import com.medicore.medicore.clinic.model.DoctorProfile;
+import com.medicore.medicore.clinic.repository.DoctorProfileRepository;
+import com.medicore.medicore.clinic.repository.HospitalRepo;
+import com.medicore.medicore.clinic.model.PatientProfile;
+import com.medicore.medicore.clinic.repository.PatientProfileRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

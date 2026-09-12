@@ -1,7 +1,7 @@
 package com.medicore.medicore.billing.model.entity;
 
 import com.medicore.medicore.billing.model.status.PayoutStatus;
-import com.medicore.medicore.hospital.HospitalProfile;
+import com.medicore.medicore.clinic.model.HospitalProfile;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

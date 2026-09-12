@@ -1,8 +1,8 @@
 package com.medicore.medicore.comman.mapper;
 
-import com.medicore.medicore.appointment.Appointment;
-import com.medicore.medicore.appointment.dto.AppointmentResponse;
-import com.medicore.medicore.hospital.HospitalProfile;
+import com.medicore.medicore.clinic.model.Appointment;
+import com.medicore.medicore.clinic.dto.AppointmentResponse;
+import com.medicore.medicore.clinic.model.HospitalProfile;
 
 public class AppointmentMapper {
 

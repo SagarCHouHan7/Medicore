@@ -1,9 +1,9 @@
 package com.medicore.medicore.billing.service;
 
 import com.medicore.medicore.account.entity.User;
-import com.medicore.medicore.appointment.Appointment;
-import com.medicore.medicore.appointment.AppointmentRepo;
-import com.medicore.medicore.appointment.AppointmentStatus;
+import com.medicore.medicore.clinic.model.Appointment;
+import com.medicore.medicore.clinic.repository.AppointmentRepo;
+import com.medicore.medicore.clinic.model.AppointmentStatus;
 import com.medicore.medicore.billing.model.dto.BillingResponseDto;
 import com.medicore.medicore.billing.model.entity.Bill;
 import com.medicore.medicore.billing.model.entity.Payment;
@@ -16,8 +16,8 @@ import com.medicore.medicore.billing.repository.PaymentRepository;
 import com.medicore.medicore.billing.repository.SettlementRepository;
 import com.medicore.medicore.comman.exception.custome.CustomeExeption;
 import com.medicore.medicore.comman.mapper.BillingMapper;
-import com.medicore.medicore.patient.PatientProfile;
-import com.medicore.medicore.patient.PatientProfileRepository;
+import com.medicore.medicore.clinic.model.PatientProfile;
+import com.medicore.medicore.clinic.repository.PatientProfileRepository;
 import com.medicore.medicore.comman.utils.UserUtils;
 import com.razorpay.Order;
 import com.razorpay.RazorpayClient;
